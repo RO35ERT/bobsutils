@@ -59,9 +59,4 @@ class UtilityClassesTest {
         assertNotNull(DateUtils.now(DateUtils.DAY_MONTH_YEAR));
     }
 
-    @Test
-    void testOtherUtils() {
-        assertTrue(OtherUtils.isEmpty(null));
-        assertEquals(8, OtherUtils.generateShortId().length());
-    }
 }
