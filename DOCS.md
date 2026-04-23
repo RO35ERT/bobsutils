@@ -2,14 +2,35 @@
 
 Welcome to the official documentation for **BobsUtils**, a premium Java utility library.
 
-## 📌 Integration
-Add the library to your project:
+## 📌 Integration (via JitPack)
+
+### Maven
+Add the JitPack repository and the dependency to your `pom.xml`:
 ```xml
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
 <dependency>
-  <groupId>com.tumbwe</groupId>
+  <groupId>com.github.YOUR_USERNAME</groupId>
   <artifactId>bobsutils</artifactId>
   <version>1.0.0</version>
 </dependency>
+```
+
+### Gradle
+Add it in your `build.gradle` (or `build.gradle.kts`):
+```gradle
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.YOUR_USERNAME:bobsutils:1.0.0'
+}
 ```
 
 ---
