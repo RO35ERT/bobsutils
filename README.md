@@ -1,4 +1,4 @@
-# BobsUtils 🛠️
+# BobsUtils 🛠️ [![](https://jitpack.io/v/ro35ert/bobsutils.svg)](https://jitpack.io/#ro35ert/bobsutils)
 
 A premium, lightweight Java utility library designed for universal use and maximum productivity. Featuring **32 specialized modules**.
 
