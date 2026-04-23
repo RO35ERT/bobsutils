@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  To use this library via JitPack in other projects:
+  1. Add JitPack repository: https://jitpack.io
+  2. Add dependency: com.github.YOUR_USERNAME:bobsutils:1.0.0
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tumbwe</groupId>
   <artifactId>bobsutils</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>BobsUtils Library</name>
   <description>General purpose Java utility library.</description>
+
+  <scm>
+    <connection>scm:git:git://github.com/YOUR_USERNAME/bobsutils.git</connection>
+    <developerConnection>scm:git:ssh://github.com:YOUR_USERNAME/bobsutils.git</developerConnection>
+    <url>https://github.com/YOUR_USERNAME/bobsutils/tree/main</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
