@@ -15,7 +15,7 @@ Add the JitPack repository and the dependency to your `pom.xml`:
 </repositories>
 
 <dependency>
-  <groupId>com.github.YOUR_USERNAME</groupId>
+  <groupId>com.github.ro35ert</groupId>
   <artifactId>bobsutils</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.YOUR_USERNAME:bobsutils:1.0.0'
+    implementation 'com.github.ro35ert:bobsutils:1.0.0'
 }
 ```
 
