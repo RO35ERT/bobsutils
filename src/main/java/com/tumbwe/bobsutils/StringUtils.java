@@ -268,4 +268,25 @@ public class StringUtils {
         }
         return sb.toString();
     }
+
+    /**
+     * Converts a string to snake_case.
+     * @param input the string to convert
+     * @return the snake_case string
+     */
+    public static String toSnakeCase(String input) {
+        if (isEmpty(input)) return "";
+        return input.replaceAll("([a-z])([A-Z]+)", "$1_$2")
+                    .replaceAll("[\\s\\-]+", "_")
+                    .toLowerCase();
+    }
+
+    /**
+     * Toggles the case of all characters in a string.
+     * @param str the string to toggle
+     * @return string with toggled case
+     */
+    public static String toggleCase(String str) {
+        return swapCase(str);
+    }
 }
